@@ -28,6 +28,7 @@ jobs:
         run: |
           newman run "api_collection_and_environment/jsonplaceholder_postman_collection.json" \
             --environment "api_collection_and_environment/jsonplaceholder_env.json" \
+            --iteration-data "collection_runner/collectionRunnerVariables.csv" \
             --reporters cli,htmlextra \
             --reporter-htmlextra-export "newman-reports/htmlextra-report.html"
 
