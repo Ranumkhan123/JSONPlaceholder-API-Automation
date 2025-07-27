@@ -1,0 +1,1926 @@
+{
+	"id": "c5f083a5-ee18-4010-b113-0781d727fdde",
+	"name": "jsonplaceholder",
+	"timestamp": "2025-07-07T12:07:25.434Z",
+	"collection_id": "15491437-0e912585-7d51-44f0-8eec-7e7e424748a9",
+	"folder_id": 0,
+	"environment_id": "15491437-fa69f1bc-9f82-4de5-b9f7-8c81f52300a6",
+	"totalPass": 545,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-07-07T12:06:52.659Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3bfc02f0-21f7-4ba5-b042-198a88f42732",
+			"name": "All Posts",
+			"url": "https://jsonplaceholder.typicode.com//posts",
+			"time": 106,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				314,
+				112,
+				110,
+				112,
+				106
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "15c6b2ea-24a1-486d-a58f-f32396921628",
+			"name": "Single Post",
+			"url": "https://jsonplaceholder.typicode.com//posts/5",
+			"time": 107,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				107,
+				106,
+				111,
+				112,
+				107
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "fc131ffa-1d3b-4526-9f08-88d8ee14a2e6",
+			"name": "Comments",
+			"url": "https://jsonplaceholder.typicode.com//posts/5/comments",
+			"time": 107,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				110,
+				112,
+				110,
+				108,
+				107
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "c9c7ee4c-343c-42da-aeae-7a94fe0999ed",
+			"name": "From Post ID",
+			"url": "https://jsonplaceholder.typicode.com//comments?postId=33",
+			"time": 823,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				106,
+				780,
+				107,
+				769,
+				823
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "f476a5a4-d991-40e4-89e8-118c8e127d8c",
+			"name": "From ID",
+			"url": "https://jsonplaceholder.typicode.com//comments?id=101",
+			"time": 111,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				109,
+				109,
+				120,
+				110,
+				111
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "9c86435a-6de4-4525-9722-f258a3375022",
+			"name": "Add New Posts",
+			"url": "https://jsonplaceholder.typicode.com//posts",
+			"time": 327,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				777,
+				755,
+				347,
+				327,
+				327
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 201": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "e8e63c50-ce3d-4ab1-bb39-50666c00ba3f",
+			"name": "Edit Post",
+			"url": "https://jsonplaceholder.typicode.com//posts/33",
+			"time": 827,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				783,
+				787,
+				777,
+				791,
+				827
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "1b8178e2-0a71-4a81-9a26-070ba889e5ee",
+			"name": "Update Post",
+			"url": "https://jsonplaceholder.typicode.com//posts/33",
+			"time": 336,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				768,
+				346,
+				327,
+				787,
+				336
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "c38349c8-87d2-4efa-a874-8c43bac6ef91",
+			"name": "Delete Data",
+			"url": "https://jsonplaceholder.typicode.com//posts/33",
+			"time": 328,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				430,
+				341,
+				335,
+				332,
+				328
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true
+				}
+			]
+		},
+		{
+			"id": "c99ff758-6b15-4ed6-ada0-1bdb72f24b81",
+			"name": "Post Comments",
+			"url": "https://jsonplaceholder.typicode.com//posts/1/comments",
+			"time": 115,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				213,
+				107,
+				113,
+				104,
+				115
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "a0e05904-5cfd-46a1-bddb-06ebbac508e0",
+			"name": "Comments Post ID",
+			"url": "https://jsonplaceholder.typicode.com//posts/33/comments",
+			"time": 841,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				286,
+				106,
+				109,
+				113,
+				841
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "2c5a844c-dbc8-4747-838a-1b9b9f482e87",
+			"name": "Photos from Albums",
+			"url": "https://jsonplaceholder.typicode.com//albums/1/photos",
+			"time": 106,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				111,
+				106,
+				110,
+				106,
+				106
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "b88a42c2-8e3e-4012-a68a-89d0e08f44da",
+			"name": "Photos from random AlbumID",
+			"url": "https://jsonplaceholder.typicode.com//albums/34/photos",
+			"time": 109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				106,
+				110,
+				105,
+				123,
+				109
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "c2757cea-f47a-42b4-9f67-f4390f039cb0",
+			"name": "ToDo from UserId",
+			"url": "https://jsonplaceholder.typicode.com//users/1/todos",
+			"time": 106,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				106,
+				106,
+				105,
+				106,
+				106
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "9d86694d-e170-4e66-9606-c19feea6d12a",
+			"name": "ToDo from Random UserId",
+			"url": "https://jsonplaceholder.typicode.com//users/10/todos",
+			"time": 117,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				112,
+				105,
+				103,
+				111,
+				117
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "f77ef3ae-1a8e-4056-a1a9-dcf9420413f2",
+			"name": "Posts from UserID",
+			"url": "https://jsonplaceholder.typicode.com//users/1/posts",
+			"time": 106,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				106,
+				111,
+				105,
+				108,
+				106
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "121a0444-f5ea-475d-897b-6d40986921ef",
+			"name": "Posts from Random UserID",
+			"url": "https://jsonplaceholder.typicode.com//users/10/posts",
+			"time": 112,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				107,
+				107,
+				106,
+				110,
+				112
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "e9798911-8a72-4d80-b608-436c1901d299",
+			"name": "All Users",
+			"url": "https://jsonplaceholder.typicode.com//users",
+			"time": 111,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				108,
+				105,
+				112,
+				114,
+				111
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "7d0d027d-e7cf-4a9c-ad22-84514d8d87b1",
+			"name": "Users from UserId",
+			"url": "https://jsonplaceholder.typicode.com//users/2",
+			"time": 108,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				108,
+				109,
+				105,
+				106,
+				108
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "abed7eb1-f0d7-4d5c-90fb-2456ccf76526",
+			"name": "User from Random UserId",
+			"url": "https://jsonplaceholder.typicode.com//users/10",
+			"time": 108,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				114,
+				109,
+				107,
+				105,
+				108
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "f446e025-88c7-49a0-84e1-63366ff7df1f",
+			"name": "Albums from UserId",
+			"url": "https://jsonplaceholder.typicode.com//users/1/albums",
+			"time": 109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				109,
+				114,
+				106,
+				111,
+				109
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		},
+		{
+			"id": "81f3edca-ecbc-4405-8fec-9c8b5c8abe03",
+			"name": "Album from Random UserID",
+			"url": "https://jsonplaceholder.typicode.com//users/10/albums",
+			"time": 110,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Content-Type is application/json": true,
+				"Response time is less than 2 seconds ": true,
+				"Response size is less than 10000 Bytes": true,
+				"Validate data types of the body": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is application/json": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response time is less than 2 seconds ": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Response size is less than 10000 Bytes": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Validate data types of the body": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				107,
+				111,
+				105,
+				115,
+				110
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				},
+				{
+					"Status code is 200": true,
+					"Content-Type is application/json": true,
+					"Response time is less than 2 seconds ": true,
+					"Response size is less than 10000 Bytes": true,
+					"Validate data types of the body": true
+				}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 23896,
+	"collection": {
+		"requests": [
+			{
+				"id": "3bfc02f0-21f7-4ba5-b042-198a88f42732",
+				"method": "GET"
+			},
+			{
+				"id": "15c6b2ea-24a1-486d-a58f-f32396921628",
+				"method": "GET"
+			},
+			{
+				"id": "fc131ffa-1d3b-4526-9f08-88d8ee14a2e6",
+				"method": "GET"
+			},
+			{
+				"id": "c9c7ee4c-343c-42da-aeae-7a94fe0999ed",
+				"method": "GET"
+			},
+			{
+				"id": "f476a5a4-d991-40e4-89e8-118c8e127d8c",
+				"method": "GET"
+			},
+			{
+				"id": "9c86435a-6de4-4525-9722-f258a3375022",
+				"method": "POST"
+			},
+			{
+				"id": "e8e63c50-ce3d-4ab1-bb39-50666c00ba3f",
+				"method": "PUT"
+			},
+			{
+				"id": "1b8178e2-0a71-4a81-9a26-070ba889e5ee",
+				"method": "PATCH"
+			},
+			{
+				"id": "c38349c8-87d2-4efa-a874-8c43bac6ef91",
+				"method": "DELETE"
+			},
+			{
+				"id": "c99ff758-6b15-4ed6-ada0-1bdb72f24b81",
+				"method": "GET"
+			},
+			{
+				"id": "a0e05904-5cfd-46a1-bddb-06ebbac508e0",
+				"method": "GET"
+			},
+			{
+				"id": "2c5a844c-dbc8-4747-838a-1b9b9f482e87",
+				"method": "GET"
+			},
+			{
+				"id": "b88a42c2-8e3e-4012-a68a-89d0e08f44da",
+				"method": "GET"
+			},
+			{
+				"id": "c2757cea-f47a-42b4-9f67-f4390f039cb0",
+				"method": "GET"
+			},
+			{
+				"id": "9d86694d-e170-4e66-9606-c19feea6d12a",
+				"method": "GET"
+			},
+			{
+				"id": "f77ef3ae-1a8e-4056-a1a9-dcf9420413f2",
+				"method": "GET"
+			},
+			{
+				"id": "121a0444-f5ea-475d-897b-6d40986921ef",
+				"method": "GET"
+			},
+			{
+				"id": "e9798911-8a72-4d80-b608-436c1901d299",
+				"method": "GET"
+			},
+			{
+				"id": "7d0d027d-e7cf-4a9c-ad22-84514d8d87b1",
+				"method": "GET"
+			},
+			{
+				"id": "abed7eb1-f0d7-4d5c-90fb-2456ccf76526",
+				"method": "GET"
+			},
+			{
+				"id": "f446e025-88c7-49a0-84e1-63366ff7df1f",
+				"method": "GET"
+			},
+			{
+				"id": "81f3edca-ecbc-4405-8fec-9c8b5c8abe03",
+				"method": "GET"
+			}
+		]
+	}
+}
